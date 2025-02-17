@@ -1,15 +1,15 @@
-#Netflix GPT
-  -Create React App
-  -Configure TailWindCSS
+## Netflix GPT
 
-#Features
--Browse(after authentocation)
-  -Header
-  -Main Movie
-    -Trailer in Background
-    -Title & Description
-    -Movie Suggestion
--NetflixGPT
-  -Search Bar
-  -Movie Suggestions
-  
+## Create React App - Configure TailwindCSS
+
+## Features
+
+- **Browse** (after authentication)
+- **Header**
+- **Main Movie**
+- **Trailer in Background**
+- **Title & Description**
+- **Movie Suggestions**
+- **NetflixGPT**
+- **Search Bar**
+
