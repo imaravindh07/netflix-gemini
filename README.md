@@ -9,7 +9,7 @@
     -Form Validation 
     -useRef Hook
     -Firebase Setup
-    -Deploying Appn to prroduction
+    -Deploying App to production
 ## Create React App - Configure TailwindCSS
 
 ## Features
