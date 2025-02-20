@@ -1,10 +1,15 @@
 ## Netflix GPT
 
     -Create React App
-    -configured Tailwind CSS
+    -Configured Tailwind CSS
     -Header
+    -Routing of App
     -Login Form
     -Sign Up Form
+    -Form Validation 
+    -useRef Hook
+    -Firebase Setup
+    -Deploying Appn to prroduction
 ## Create React App - Configure TailwindCSS
 
 ## Features
