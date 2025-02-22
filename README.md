@@ -9,8 +9,13 @@
     -Form Validation 
     -useRef Hook
     -Firebase Setup
+ 
     -Deploying App to production
-## Create React App - Configure TailwindCSS
+    -Create Sign Up User Account
+    -Implement Sign In User API
+    -Created Redux Store with userSlice
+    -Implemented Sign Out
+    -Update Profile
 
 ## Features
 
