@@ -28,6 +28,10 @@
     -Update store with Trailer Vedio Data
     -Embedded the youtube vedio
     -TailWind classes to make MainContainer look awesome
+    -Build Secondary Component
+    -Build Movie List
+    -Build Movie Card
+    -usePopularMovie Custom hook
 
 ## Features
 

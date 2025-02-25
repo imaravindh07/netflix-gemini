@@ -6,7 +6,6 @@ export const VedioBackground = ({ movieId }) => {
     useMovieTrailer(movieId); // Fetches and stores the trailer in Redux
 
     const trailerVedio = useSelector(store => store.movies?.trailerVedio);
-    console.log("Trailer Key:", trailerVedio?.key); // ✅ Debugging
 
     if (!trailerVedio || !trailerVedio.key) {
         return <div className="text-white">Trailer not available</div>;
