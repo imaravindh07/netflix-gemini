@@ -32,6 +32,10 @@
     -Build Movie List
     -Build Movie Card
     -usePopularMovie Custom hook
+    -GPT Search feature
+    -GPT Search Page
+    -GPT Search bar
+    -Multi language feature
 
 ## Features
 
