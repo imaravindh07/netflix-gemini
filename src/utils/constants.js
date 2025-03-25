@@ -19,6 +19,3 @@ export const SUPPORTED_LANGUAGES=[
     {identifier:"hindi",name:"Hindi"}
   ]
 export const GEMINI_API_KEY=process.env.REACT_APP_GEMINI_API_KEY;
-// process.env.REACT_APP_GEMINI_API_KEY;
-// export const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
-// export const OPENAI_KEY="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"
