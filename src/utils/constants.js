@@ -7,7 +7,7 @@ export const API_OPTIONS={
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYzJkY2UwZDllYTBiM2IyZWM0Mzk1NTJkYWNkNzA1MiIsIm5iZiI6MTc0MDIyMDg4Ny4wNSwic3ViIjoiNjdiOWE5ZDdiN2MzNTQ1OWFkYmVhMzM4Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.Z6t1eEas9UqnnZAbFc56SFWl9dNfNj3ACzMt3UIz4DY'
+      Authorization: 'Bearer '+process.env.REACT_APP_TMDB_KEY
     }
   };
 
@@ -18,3 +18,7 @@ export const SUPPORTED_LANGUAGES=[
     {identifier:"telugu",name:"Telugu"},
     {identifier:"hindi",name:"Hindi"}
   ]
+export const GEMINI_API_KEY=process.env.REACT_APP_GEMINI_API_KEY;
+// process.env.REACT_APP_GEMINI_API_KEY;
+// export const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
+// export const OPENAI_KEY="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"

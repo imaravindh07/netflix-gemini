@@ -1,9 +1,12 @@
 import { API_OPTIONS } from '../utils/constants'
 import { useEffect } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { addTrailerVedio } from '../utils/moviesSlice'
 
 const useMovieTrailer = (movieId) => {
+  const trailerVedio=useSelector(
+    (store)=>store.movies.trailerVedio
+  );
   const dispatch = useDispatch()
 
   const getMovieVedios = async () => {
@@ -16,7 +19,7 @@ const useMovieTrailer = (movieId) => {
 
   useEffect(() => {
     if (movieId) { // Check if movieId is valid
-      getMovieVedios()
+      !trailerVedio&& getMovieVedios()
     }
   }, [movieId])  // Re-run when movieId changes
 }
