@@ -36,6 +36,15 @@
     -GPT Search Page
     -GPT Search bar
     -Multi language feature
+    -Get Gemini API Key
+    -Gemini API Call
+    -fetched gptMovieSuggestions from TMDB
+    -created gptSlice and added data
+    -resued MovieList component to make movie suggestion container
+    -Memoization
+    -Added .env file
+    -Added .env file  to gitignore
+    -Made Site Responsive
 
 ## Features
 

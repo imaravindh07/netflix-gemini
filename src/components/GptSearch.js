@@ -6,14 +6,18 @@ import { BG_URL } from '../utils/constants';
 function GptSearch() {
   return (
     <div>
-        {/* {gpt search bar and gpt movie suggestions} */}
         <div className='fixed -z-10'>
-            <img src={BG_URL}
-              alt="logo">
-            </img>
-          </div>
-        <GptSearchBar />
-        <GptMovieSuggestions />
+          <img
+            className='h-screen object-cover md:h-auto' 
+            src={BG_URL}
+            alt="logo">
+          </img>
+        </div>
+        <div className=''>
+          <GptSearchBar />
+          <GptMovieSuggestions />
+        </div>
+        
     </div>
   )
 }
